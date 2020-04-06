@@ -15,14 +15,17 @@
     <link rel="stylesheet" href="static/css/style.css">
 
 </head>
-<body>
+<body class="bg-dark">
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">UFO Sightings</a>
+        <!--nav class="navbar navbar-expand-lg"-->
+        <!--added class "navbar-dark" for dark navbar-->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg"></nav>
+            <a class="navbar-brand" href="index.html">UFO Sightings (navigation)</a>
         </nav>
     </div>
     <div class="jumbotron">
-        <h1>The Truth Is Out There</h1>
+        <!--add class "dispaly 4" for font size and style-->
+        <h1 class="display-4">The Truth Is Out There (header)</h1>
     </div>
     <!--container will span the width of viewpoint-->
     <div class="container-fluid">
@@ -54,14 +57,14 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3">
-            <form>
+          <div class="col-md-3.5">
+            <form class="bg-dark">
                 <p>Filter Search</p>
             </form>
             <!--class="list-group": Bootstrap apply predetermined styling to the list-->
-            <ul class="list-group">
+            <ul class="bg-dark list-group">
                 <!--add the list items-->
-                <li class="list-group-item">
+                <li class="bg-dark list-group-item">
                     <!--label is a caption to encourage users to input a date-->
                     <label for="date">Enter Date</label>
                     <!--add the input-->
@@ -69,9 +72,25 @@
                     <!--id="datetime" is what our JavaScript code will look for when the button is clicked -->
                     <input type="text" placeholder="1/10/2010" id="datetime" />
                 </li>
-                <li class="list-group-item">
+                <li class="bg-dark list-group-item">
+                    <label for="city">Enter City</label>
+                    <input type="text" placeholder="fresno" id="city" />
+                </li>
+                <li class="bg-dark list-group-item">
+                    <label for="state">Enter State</label>
+                    <input type="text" placeholder="ca" id="state" />
+                </li>
+                <li class="bg-dark list-group-item">
+                    <label for="country" >Enter Country</label>
+                    <input type="text" placeholder="us" id="country" />
+                </li>
+                <li class="bg-dark list-group-item">
+                    <label for="shape">Enter Shape</label>
+                    <input type="text" placeholder="circle" id="shape" />
+                </li>
+                <li class="bg-dark list-group-item">
                     <!--add our button-->
-                    <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                    <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
                 </li>
             </ul>              
           </div>
@@ -92,12 +111,14 @@
                   <th>Comments</th>
                 </tr>
               </thead>
+              <!--app.js will pick up tbody by d3.select("tbody") and fill out data-->
               <tbody></tbody>
             </table>
           </div>
         </div>
-      </div>
-
-
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
 </body>
 </html>
