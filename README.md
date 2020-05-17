@@ -1,6 +1,7 @@
 # UFOs
 Create a web table to organize UFO data that is stored as a JavaScript array, or list.
 
+## Steps
 •	Explain the strengths and weaknesses of JavaScript “standard” and JavaScript version ES6+. </br>
 •	Describe JavaScript syntax and ideal use cases. </br>
 •	Build and deploy JavaScript functions, including built-in functions. </br>
@@ -8,8 +9,7 @@ Create a web table to organize UFO data that is stored as a JavaScript array, or
 •	Build and deploy forEach (JavaScript for loop). </br>
 •	Create, populate, and dynamically filter a table using JavaScript and HTML. </br>
 
-## Challenge 11
-
+## Discussion
 Create additional filters for the webpage. The advanced filtering capability will allow users to filter the data by multiple factors.</br>
 
 •	Create, update, and deploy JavaScript functions to provide additional table filters.</br>
