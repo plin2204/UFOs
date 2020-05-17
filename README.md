@@ -12,6 +12,8 @@ Create additional filters for the webpage. The advanced filtering capability wil
 
 The codes are in [style.css](https://github.com/plin2204/UFOs/blob/master/style.css), [app.js](https://github.com/plin2204/UFOs/blob/master/app.js), and [index.html](https://github.com/plin2204/UFOs/blob/master/index.html).
 
+Click [Link](https://plin2204.github.io/UFOs/) to the Website!
+
 ![](web.PNG)
 
 One Recommendation for Fruther Development: </br>
