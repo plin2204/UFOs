@@ -10,11 +10,9 @@ Create a web table to organize UFO data that is stored as a **JavaScript** array
 ## Discussion
 Create additional filters for the webpage. The advanced filtering capability will allow users to filter the data by multiple factors.</br>
 
-
-
-One Recommendation for Fruther Development: </br>
-For now, users have to press the button for filter. Besides that, perhaps it's a good idea to add "Press Enter" for filter as well.
+The codes are in [style.css](https://github.com/plin2204/UFOs/blob/master/style.css), [app.js](https://github.com/plin2204/UFOs/blob/master/app.js), and [index.html](https://github.com/plin2204/UFOs/blob/master/index.html).
 
 ![](web.PNG)
 
-
+One Recommendation for Fruther Development: </br>
+For now, users have to press the button for filter. Besides that, perhaps it's a good idea to add "Press Enter" for filter as well.
